@@ -1,0 +1,87 @@
+﻿html {
+    margin: 0;
+    /*filter: invert(100%);*/
+}
+
+body {
+    background-color: #dde5ee !important;
+}
+
+.sidenav {
+    background-color: white;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow-x: hidden;
+    padding: 60px 0 0 0;
+    display: none;
+    -webkit-box-shadow: 1px 7px 24px -10px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 1px 7px 24px -10px rgba(66, 68, 90, 1);
+    box-shadow: 1px 7px 24px -10px rgba(66, 68, 90, 1);
+}
+
+.navbar-custom {
+    background-color: white;
+    -webkit-box-shadow: 1px 7px 20px -12px rgba(66, 68, 90, 0.6);
+    -moz-box-shadow: 1px 7px 20px -12px rgba(66, 68, 90, 0.6);
+    box-shadow: 1px 7px 20px -12px rgba(66, 68, 90, 0.6);
+}
+
+.sidenav-icon {
+    background-image: url(images/menu.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30px 30px;
+    margin: 0 15px 0 15px;
+    /*margin: 0 0 0 15px;*/
+    /*margin-left: 15px;*/
+    transition: 0.25s;
+}
+
+    .sidenav-icon:hover {
+        cursor: pointer;
+        transition: 0.25s;
+        /*line-height: 20px;*/
+    }
+
+        .sidenav-icon.change-icon {
+            background-image: url(images/menu2.png);
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: 30px 30px;
+            transition: 0.25s;
+        }
+
+.navbar-nav a {
+    color: black;
+    font-family: Helvetica;
+    font-size: 15px;
+    transition: 0.25s;
+}
+
+    .navbar-nav a:hover {
+        transition: 0.25s;
+        background-color:rgba(0,0,0,0.15) !important;
+    }
+
+.icon-bar {
+    background-color: darkgrey !important;
+}
+
+.navbar-toggle {
+    border-color: darkgrey !important;
+    transition: 0.25s;
+}
+
+    .navbar-toggle.color {
+        background-color: dimgrey;
+        transition: 0.25s;
+    }
+
+/*TYLKO DLA SMARTFONÓW*/
+@media only screen and (hover: none) and (pointer: coarse) {
+
+}
